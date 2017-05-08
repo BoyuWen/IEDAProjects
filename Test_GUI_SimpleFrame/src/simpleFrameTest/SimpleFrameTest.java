@@ -11,7 +11,6 @@ public class SimpleFrameTest {
         EventQueue.invokeLater(new Runnable(){
             public void run(){
                 SimpleFrame frame = new SimpleFrame();
-                NotHelloWorldComponent a = new NotHelloWorldComponent();
                 frame.add(new NotHelloWorldComponent());
                 frame.setTitle("Not Hello World Component");
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
