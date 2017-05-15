@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EX237_View thread status/EX237_View thread status.iml" filepath="$PROJECT_DIR$/EX237_View thread status/EX237_View thread status.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX237_查看线程运行状态/EX237_查看线程运行状态.iml" filepath="$PROJECT_DIR$/EX237_查看线程运行状态/EX237_查看线程运行状态.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestProjects.iml" filepath="$PROJECT_DIR$/TestProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_GUI_SimpleFrame/Test_GUI_SimpleFrame.iml" filepath="$PROJECT_DIR$/Test_GUI_SimpleFrame/Test_GUI_SimpleFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_unsynch/Test_Multi_Transfer_unsynch.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_unsynch/Test_Multi_Transfer_unsynch.iml" />
     </modules>
   </component>
 </project>
