@@ -7,7 +7,7 @@ import java.util.concurrent.locks.*;
  */
 public class Bank {
     private Lock mylock;
-    //private Condition funds = new Condition();
+    private Condition funds;
     private double[] accounts;
 
     public Bank(int n,double initialBalance){
@@ -16,32 +16,36 @@ public class Bank {
             accounts[i] = initialBalance;
         }
         mylock = new ReentrantLock();
+        funds = mylock.newCondition();
     }
-    public void Transfer(int from,int to,double amount){
+    public void Transfer(int from,int to,double amount) throws InterruptedException{
         mylock.lock();
         try{
-            if(accounts[from] >= amount) {
+            while(accounts[from] < amount) {
+                funds.await();
+            }
+                System.out.println(Thread.currentThread());
                 accounts[from] -= amount;
                 accounts[to] += amount;
                 System.out.println("账户" + from + "转入到账户" + to + "::" + amount + ";   总金额::" + getTotalBalance());
-            }
+                funds.signalAll();
         }
         finally {
             mylock.unlock();
         }
     }
     public double getTotalBalance(){
-        double sum = 0;
         mylock.lock();
         try{
+            double sum = 0;
             for(double i:accounts){
                 sum += i;
             }
+            return sum;
         }
         finally{
             mylock.unlock();
         }
-        return sum;
     }
     public int getAccounts(){
         return accounts.length;
