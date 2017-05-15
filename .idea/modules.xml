@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/TestProjects.iml" filepath="$PROJECT_DIR$/TestProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_GUI_SimpleFrame/Test_GUI_SimpleFrame.iml" filepath="$PROJECT_DIR$/Test_GUI_SimpleFrame/Test_GUI_SimpleFrame.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_suynch/Test_Multi_Transfer_suynch.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_suynch/Test_Multi_Transfer_suynch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_synchronized/Test_Multi_Transfer_synchronized.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_synchronized/Test_Multi_Transfer_synchronized.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_unsynch/Test_Multi_Transfer_unsynch.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_unsynch/Test_Multi_Transfer_unsynch.iml" />
     </modules>
   </component>
