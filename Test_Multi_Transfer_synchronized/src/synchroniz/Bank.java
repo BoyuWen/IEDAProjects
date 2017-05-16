@@ -17,6 +17,8 @@ public class Bank {
         for(int i=0;i<n;i++){
             accounts[i] = initialBalance;
         }
+        //mylock = new ReentrantLock();
+        //funds = mylock.newCondition();
     }
     public synchronized void Transfer(int from,int to,double amount) throws InterruptedException{
         while(accounts[from] < amount) {
