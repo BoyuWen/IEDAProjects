@@ -4,31 +4,24 @@ package test;
  * Created by Dr.Wen on 2017/5/15.
  */
 public class ThreadState implements Runnable {
-    public void waitForSecond() {
-        try{
-            wait(500);
-        }
-        catch (InterruptedException e){}
-        catch (IllegalMonitorStateException e){}
+    public void waitForSecond() throws InterruptedException{
+        wait(500);
         //System.out.println("second");
     }
-    public void waitForYear() {
-        try{
+    public void waitForYear() throws InterruptedException{
             wait();
-        }
-        catch (InterruptedException e){}
-        catch (IllegalMonitorStateException e){}
         //System.out.println("year");
     }
-    public  void notifyNow() {
-        try{
+    public  void notifyNow() throws InterruptedException{
             notify();
-        }
-        catch (IllegalMonitorStateException e){}
     }
     @Override
     public void run() {
+        try {
             waitForSecond();
             waitForYear();
+        }
+        catch (InterruptedException e){}
+        catch (IllegalMonitorStateException e){}
     }
 }
