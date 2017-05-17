@@ -4,8 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EX237_查看线程运行状态/EX237_查看线程运行状态.iml" filepath="$PROJECT_DIR$/EX237_查看线程运行状态/EX237_查看线程运行状态.iml" />
       <module fileurl="file://$PROJECT_DIR$/EX238_查看JVM线程名/EX238_查看JVM线程名.iml" filepath="$PROJECT_DIR$/EX238_查看JVM线程名/EX238_查看JVM线程名.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EX239_查看和修改线程优先级/EX239_查看和修改线程优先级.iml" filepath="$PROJECT_DIR$/EX239_查看和修改线程优先级/EX239_查看和修改线程优先级.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestProjects.iml" filepath="$PROJECT_DIR$/TestProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_GUI_NotHelloWorld/Test_GUI_NotHelloWorld.iml" filepath="$PROJECT_DIR$/Test_GUI_NotHelloWorld/Test_GUI_NotHelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_GUI_SimoleFrameTest/Test_GUI_SimoleFrameTest.iml" filepath="$PROJECT_DIR$/Test_GUI_SimoleFrameTest/Test_GUI_SimoleFrameTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_GUI_SimpleFrame/Test_GUI_SimpleFrame.iml" filepath="$PROJECT_DIR$/Test_GUI_SimpleFrame/Test_GUI_SimpleFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test_GUI_SizedFrame/Test_GUI_SizedFrame.iml" filepath="$PROJECT_DIR$/Test_GUI_SizedFrame/Test_GUI_SizedFrame.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_LockBlock/Test_Multi_Transfer_LockBlock.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_LockBlock/Test_Multi_Transfer_LockBlock.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_suynch/Test_Multi_Transfer_suynch.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_suynch/Test_Multi_Transfer_suynch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_synchronized/Test_Multi_Transfer_synchronized.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_synchronized/Test_Multi_Transfer_synchronized.iml" />
