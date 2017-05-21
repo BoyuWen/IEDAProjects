@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/2Test3-1_SocketTest/2Test3-1_SocketTest.iml" filepath="$PROJECT_DIR$/2Test3-1_SocketTest/2Test3-1_SocketTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2Test3-2_InetAddressTest/2Test3-2_InetAddressTest.iml" filepath="$PROJECT_DIR$/2Test3-2_InetAddressTest/2Test3-2_InetAddressTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2Test3-3_EchoServer/2Test3-3_EchoServer.iml" filepath="$PROJECT_DIR$/2Test3-3_EchoServer/2Test3-3_EchoServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2Test3-4_ThreadedEchoServer/2Test3-4_ThreadedEchoServer.iml" filepath="$PROJECT_DIR$/2Test3-4_ThreadedEchoServer/2Test3-4_ThreadedEchoServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/EX237_查看线程运行状态/EX237_查看线程运行状态.iml" filepath="$PROJECT_DIR$/EX237_查看线程运行状态/EX237_查看线程运行状态.iml" />
       <module fileurl="file://$PROJECT_DIR$/EX238_查看JVM线程名/EX238_查看JVM线程名.iml" filepath="$PROJECT_DIR$/EX238_查看JVM线程名/EX238_查看JVM线程名.iml" />
       <module fileurl="file://$PROJECT_DIR$/EX239_查看和修改线程优先级/EX239_查看和修改线程优先级.iml" filepath="$PROJECT_DIR$/EX239_查看和修改线程优先级/EX239_查看和修改线程优先级.iml" />
