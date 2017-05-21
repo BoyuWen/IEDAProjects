@@ -26,11 +26,13 @@ public class ImageComponent extends JComponent { ////一定是JComponent!!!!!!!!
 
         g.drawImage(image,0,0,null);
 
-        for (int i=0;i*imageWidth <= getWidth();i++)
-            for (int j=0;j*imageHeight <= getHeight();j++)
-                if (i+j > 0) {
+        for (int i=0;i*imageWidth <= getWidth();i++) {
+            for (int j = 0; j * imageHeight <= getHeight(); j++) {
+                if (i + j > 0) {
                     g.copyArea(0, 0, imageWidth, imageHeight, i * imageWidth, j * imageHeight);
                 }
+            }
+        }
     }
 
     public Dimension getPreferredSize(){
