@@ -17,8 +17,8 @@ public class EchoServer {
 
         Scanner in = new Scanner(inStream);
         PrintWriter out = new PrintWriter(outStream,true);
-
         out.println("Enter BYE to exit.");
+
         boolean done = true;
         while (done && in.hasNextLine()){
             String line = in.nextLine();
