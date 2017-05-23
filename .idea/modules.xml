@@ -20,6 +20,13 @@
       <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_suynch/Test_Multi_Transfer_suynch.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_suynch/Test_Multi_Transfer_suynch.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_synchronized/Test_Multi_Transfer_synchronized.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_synchronized/Test_Multi_Transfer_synchronized.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test_Multi_Transfer_unsynch/Test_Multi_Transfer_unsynch.iml" filepath="$PROJECT_DIR$/Test_Multi_Transfer_unsynch/Test_Multi_Transfer_unsynch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VTest_IO_4OutputFile/VTest_IO_4OutputFile.iml" filepath="$PROJECT_DIR$/VTest_IO_4OutputFile/VTest_IO_4OutputFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VTest_IO_5InputFile/VTest_IO_5InputFile.iml" filepath="$PROJECT_DIR$/VTest_IO_5InputFile/VTest_IO_5InputFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VTest_IO_6WriteFile/VTest_IO_6WriteFile.iml" filepath="$PROJECT_DIR$/VTest_IO_6WriteFile/VTest_IO_6WriteFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VTest_IO_7ReaderFile/VTest_IO_7ReaderFile.iml" filepath="$PROJECT_DIR$/VTest_IO_7ReaderFile/VTest_IO_7ReaderFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VTest_IO_File/VTest_IO_File.iml" filepath="$PROJECT_DIR$/VTest_IO_File/VTest_IO_File.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VTest_IO_FileList/VTest_IO_FileList.iml" filepath="$PROJECT_DIR$/VTest_IO_FileList/VTest_IO_FileList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VTest_IO_FileParent/VTest_IO_FileParent.iml" filepath="$PROJECT_DIR$/VTest_IO_FileParent/VTest_IO_FileParent.iml" />
     </modules>
   </component>
 </project>
