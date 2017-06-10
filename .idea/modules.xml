@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/EX237_查看线程运行状态/EX237_查看线程运行状态.iml" filepath="$PROJECT_DIR$/EX237_查看线程运行状态/EX237_查看线程运行状态.iml" />
       <module fileurl="file://$PROJECT_DIR$/EX238_查看JVM线程名/EX238_查看JVM线程名.iml" filepath="$PROJECT_DIR$/EX238_查看JVM线程名/EX238_查看JVM线程名.iml" />
       <module fileurl="file://$PROJECT_DIR$/EX239_查看和修改线程优先级/EX239_查看和修改线程优先级.iml" filepath="$PROJECT_DIR$/EX239_查看和修改线程优先级/EX239_查看和修改线程优先级.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Swing常用组件（一）/Swing常用组件（一）.iml" filepath="$PROJECT_DIR$/Swing常用组件（一）/Swing常用组件（一）.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test7-4_GUI_Draw/Test7-4_GUI_Draw.iml" filepath="$PROJECT_DIR$/Test7-4_GUI_Draw/Test7-4_GUI_Draw.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test7-6_GUI_Image/Test7-6_GUI_Image.iml" filepath="$PROJECT_DIR$/Test7-6_GUI_Image/Test7-6_GUI_Image.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestProjects.iml" filepath="$PROJECT_DIR$/TestProjects.iml" />
@@ -27,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/VTest_IO_File/VTest_IO_File.iml" filepath="$PROJECT_DIR$/VTest_IO_File/VTest_IO_File.iml" />
       <module fileurl="file://$PROJECT_DIR$/VTest_IO_FileList/VTest_IO_FileList.iml" filepath="$PROJECT_DIR$/VTest_IO_FileList/VTest_IO_FileList.iml" />
       <module fileurl="file://$PROJECT_DIR$/VTest_IO_FileParent/VTest_IO_FileParent.iml" filepath="$PROJECT_DIR$/VTest_IO_FileParent/VTest_IO_FileParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/菜单和事件实验/菜单和事件实验.iml" filepath="$PROJECT_DIR$/菜单和事件实验/菜单和事件实验.iml" />
     </modules>
   </component>
 </project>
