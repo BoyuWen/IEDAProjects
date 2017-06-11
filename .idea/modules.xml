@@ -28,6 +28,7 @@
       <module fileurl="file://$PROJECT_DIR$/VTest_IO_File/VTest_IO_File.iml" filepath="$PROJECT_DIR$/VTest_IO_File/VTest_IO_File.iml" />
       <module fileurl="file://$PROJECT_DIR$/VTest_IO_FileList/VTest_IO_FileList.iml" filepath="$PROJECT_DIR$/VTest_IO_FileList/VTest_IO_FileList.iml" />
       <module fileurl="file://$PROJECT_DIR$/VTest_IO_FileParent/VTest_IO_FileParent.iml" filepath="$PROJECT_DIR$/VTest_IO_FileParent/VTest_IO_FileParent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/事件监听实验/事件监听实验.iml" filepath="$PROJECT_DIR$/事件监听实验/事件监听实验.iml" />
       <module fileurl="file://$PROJECT_DIR$/菜单和事件实验/菜单和事件实验.iml" filepath="$PROJECT_DIR$/菜单和事件实验/菜单和事件实验.iml" />
     </modules>
   </component>

@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
  */
 public class RegeditFrame extends JFrame{
     private JComponent container = new jpComponent();
+    private ButtonGroup group = new ButtonGroup();
 
     private JLabel user; //显示用户名
     private JTextField fuser;  //接收用户输入的用户名
@@ -15,6 +16,15 @@ public class RegeditFrame extends JFrame{
     private JPasswordField fpassword; //接收用户输入的密码
     private JLabel pdsure; // 确认密码
     private JPasswordField fpdsure; //接收用户输入的确认密码
+    private JLabel sex;
+    private JRadioButton sex1;
+    private JRadioButton sex2;
+    private JLabel hobby;
+    private Checkbox hobby1;
+    private Checkbox hobby2;
+    private Checkbox hobby3;
+//    private JLabel course;
+//    private JComboBox<String> course1;
     private JLabel remark; //显示备注
     private JTextArea fremark; //接收用户输入的信息
     private JLabel result;
@@ -26,12 +36,13 @@ public class RegeditFrame extends JFrame{
         container.setLayout(null);
 
         user = new JLabel("用户名");
-        password = new JLabel("密码");
-        pdsure = new JLabel("确认密码");
-        remark = new JLabel("个人简介");
         fuser = new JTextField();
+        password = new JLabel("密码");
         fpassword = new JPasswordField();
+        pdsure = new JLabel("确认密码");
         fpdsure = new JPasswordField();
+
+        remark = new JLabel("个人简介");
         fremark = new JTextArea(4,25);
         result = new JLabel("");
         insert1 = new JButton("注册");
